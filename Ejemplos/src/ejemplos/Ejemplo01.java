@@ -20,14 +20,24 @@ public class Ejemplo01 {
         // int c = caracter;
         // System.out.println((int)caracter);
         
-        
         for (int i = 97; i <= 122; i++) {
-            System.out.printf("%s |%d|\n", (char)i, i);
+                                          //    V     || F    >>> V
+            if ( (i==101) || (i==105) ) { // 101==101 || 101==105 
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
+            
+            // if ((char)i=='e') {
+            //    System.out.printf("%s |%d|\n", (char)i, i);
+            // }
+            
         }
         
+        /*
         for (int i = 65; i <= 90; i++) {
-            System.out.printf("%s |%d|\n", (char)i, i);
-        }
+             System.out.printf("%s |%d|\n", (char)i, i);
+        }*/
+        
+        
         
     }
     
